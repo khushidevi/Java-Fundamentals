@@ -13,6 +13,7 @@ public class CountDigits {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n=sc.nextInt();
+        sc.close();
         count(n);
     }
 }

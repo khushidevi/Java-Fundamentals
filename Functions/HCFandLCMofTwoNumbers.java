@@ -19,6 +19,7 @@ public class HCFandLCMofTwoNumbers {
         int num1 = sc.nextInt();
         System.out.println("Enter second number: ");
         int num2 = sc.nextInt();
+        sc.close();
         hcfAndLcm(num1, num2);
     }
 }

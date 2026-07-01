@@ -14,6 +14,7 @@ public class Factorial {
              Scanner sc = new Scanner(System.in);
              System.out.println("Enter a number to find its factorial: ");
              int n=sc.nextInt();
+             sc.close();
              factorial(n);
     }
 }

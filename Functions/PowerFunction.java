@@ -15,6 +15,7 @@ public class PowerFunction {
         int base = sc.nextInt();
         System.out.println("Enter the exponent: ");
         int exponent = sc.nextInt();
+        sc.close();
         power(base, exponent);
     }
 

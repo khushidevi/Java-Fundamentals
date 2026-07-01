@@ -22,6 +22,7 @@ public class SumOfODDandEVENnumbers {
         int num = sc.nextInt();
         sumOfOddAndEven(num);
         sumOfN(num);
+        sc.close();
     }
     public static void sumOfN(int n) {
         int sum = 0;

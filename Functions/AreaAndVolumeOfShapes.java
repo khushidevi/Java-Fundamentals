@@ -107,7 +107,8 @@ public class AreaAndVolumeOfShapes {
                     break;
                 case 9:
                     System.out.println("Thank you for using the program. Goodbye!");
-                    return;
+                    sc.close();
+                    return;   
                 default:
                     System.out.println("Invalid choice.");
                     

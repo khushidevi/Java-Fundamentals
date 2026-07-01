@@ -14,6 +14,7 @@ public class FibonacciSeries {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the number of terms in Fibonacci series: ");
             int n=sc.nextInt();
+            sc.close();
             fibonacci(n);
         }
 }

@@ -12,6 +12,7 @@ public class MultiplicationTable {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
+        sc.close();
         multiplicationTable(num);
     }
 
