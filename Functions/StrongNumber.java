@@ -1,3 +1,5 @@
+//A strong number is a number whose sum of the factorial of digits is equal to the number itself. For example, 145 is a strong number because 1! + 4! + 5! = 145.
+
 import java.util.*;
 
 public class StrongNumber {
