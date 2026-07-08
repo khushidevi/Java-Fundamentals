@@ -111,6 +111,7 @@ public class AreaAndVolumeOfShapes {
                     return;   
                 default:
                     System.out.println("Invalid choice.");
+                    sc.close(); 
                     
             }
         }
